@@ -14,7 +14,7 @@ import chess.Color;
  *
  * @author lelo0
  */
-public abstract class Rook extends ChessPiece {
+public class Rook extends ChessPiece {
     
     public Rook(Board board, Color color) {
         super(color, board);

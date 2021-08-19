@@ -9,7 +9,7 @@ import chess.Color;
  *
  * @author lelo0
  */
-public abstract class Queen extends ChessPiece {
+public class Queen extends ChessPiece {
     
     public Queen(Board board, Color color) {
         super(color, board);
